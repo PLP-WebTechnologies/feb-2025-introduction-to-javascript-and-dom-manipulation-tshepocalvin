@@ -1,0 +1,92 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+
+/* Nav */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    gap: 1rem;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* Main */
+.boxContainers{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box{
+    width: 49%;
+    height: 200px;
+    background-color: #a1a1a1;
+    margin: 1px;
+    display: flex;
+    align-items: center; /* Vertically centers */
+    justify-content: center; /* Horizontally centers (optional) */
+}
+
+.button-container{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+main > p{
+    padding: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
